@@ -1,0 +1,51 @@
+.dev-icons-orgs {
+  padding: auto;
+  list-style: none;
+  font-size: 3rem;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.organizations-img {
+  width: 100px;
+  height: auto;
+}
+
+.organizations-inline {
+  display: inline-block;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  /* border: 1px solid #000000; */
+  font-family: "Google Sans Regular";
+}
+
+.organizations-inline:hover {
+  -moz-transform: translate(0px, -5px);
+  -ms-transform: translate(0px, -5px);
+  -o-transform: translate(0px, -5px);
+  -webkit-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
+}
+
+@media (max-width: 1380px) {
+}
+
+@media (max-width: 768px) {
+  .organizations-img {
+    width: 50px;
+    height: auto;
+  }
+
+  .dev-icons-orgs {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .organizations-inline {
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+}
