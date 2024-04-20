@@ -10,7 +10,7 @@ const currentYear = new Date().getFullYear();
           <div className="footer-div">
             <Fade>
               <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-                <span role="img">💻</span> • Gabriel A Azevedo &copy;{currentYear} (Todos Os Direitos Reservados)
+                <span role="img">💻</span> • Gabriel &copy;{currentYear} (Direitos Reservados)
               </p>
               {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
             </Fade>
