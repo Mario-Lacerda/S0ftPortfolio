@@ -2,14 +2,14 @@
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
 
-<h1 align="center"> 🔥 S0ftPortfolio </h1> 
+<h1 align="center"> 💠 S0ftPortfolio </h1> 
 <h3 align="center"> 💻 O modelo completo de portfólio para profissionais de T.I, <br/> 100% personalizável onde permite mostrar seus trabalhos fornecendo todos os detalhes sobre você! </h3>
 
 <p align="center">
-  <a href="http://hits.dwyl.com/ashutosh1919/masterPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/ashutosh1919/masterPortfolio.svg" /></a>
+  <a href="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gabr1el/S0ftPortfolio.svg" /></a>
   <a href="https://nodejs.org/en/blog/release/v20.11.1"><img alt="NodeJS" src="https://img.shields.io/badge/node-20.11.1-important?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/npm/v/10.2.4"><img alt="NPM" src="https://img.shields.io/badge/npm-10.2.4-blueviolet?style=flat-square" /></a>
-  <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
+  <a href="https://reactjs.org/"><img alt="Feito com ReactJS" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
   <a href="https://join.slack.com/t/masterportfolio/shared_invite/zt-g772n1fo-Ns4usanURF8jVb8wk2lRAA"><img alt="Join Slack Channel For Support" src="https://img.shields.io/badge/slack-masterPortfolio-yellow.svg?logo=slack?style=flat-square" /></a>
   <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
   <br/>
@@ -39,7 +39,7 @@
 - Educação
 - Contatos
 
-- **[Exemplo Online](https://gabrielazevedo0x.github.io/)**
+- **[Exemplo Online](https://gabr1el0x.github.io/)**
 
 # 📋 Clonagem
 
@@ -119,7 +119,7 @@ Now, you need to run following command. (Make sure you executed `npm install` be
 **Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
 
 ```node
-node git_data_fetcher.mjs
+node fetcher.mjs
 ```
 
 This will fetch all the data from your github and it will automatically replace my data with yours.
@@ -127,7 +127,7 @@ Whenever you want to update the github related information on the website you ne
 
 ### Splash Logo
 
-Note here that if you click [my portfolio](https://ashutosh1919.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
+Note here that if you click [S0ftPortfolio](https://gabr1el0x.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
 Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
 
 - If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo
@@ -189,7 +189,7 @@ If you are stuck somewhere and want to observe the deployment process in depth, 
 
 # 🛠️ Tecnologias
 
-- [React.JS](https://reactjs.org/)
+- [ReactJS](https://reactjs.org/)
 - [GraphQL](https://graphql.org/)
 - [Apollo-Boost](https://www.apollographql.com/docs/react/get-started/)
 - [BaseUI](https://github.com/uber/baseweb)
