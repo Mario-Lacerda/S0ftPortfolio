@@ -20,50 +20,50 @@ const seo = {
 //Home Page
 const greeting = {
   title: emoji ("Olá! Sou o Gabriel"),
-  logo_name: "GabrielAAzevedo",
+  logo_name: "GabrielAzevedo",
   nickname: "Desenvolvedor Web",
   subTitle:
     "</> Um profissional dedicado, movido pela paixão, sempre buscando oportunidades para contribuir no desenvolvimento de produtos abrangentes. Com expertise na criação de sistemas sociais, técnicos, sustentáveis e escaláveis, buscando constantemente gerar um impacto extraordinário.",
   resumeLink:
 "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-  portfolio_repository: "https://github.com/gabrielazevedo0x/S0ftPortfolio",
-  githubProfile: "https://github.com/gabrielazevedo0x",
+  portfolio_repository: "https://github.com/gabr1el0x/S0ftPortfolio",
+  githubProfile: "https://github.com/gabr1el0x",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/gabrielazevedo0x/",
+    link: "https://github.com/gabr1el0x/",
     fontAwesomeIcon: "fa-github",
     backgroundColor: "#121212",
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/gabrielazevedo0x/",
+    link: "https://www.linkedin.com/in/gabr1el0x/",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#17A9FD",
   },
   {
     name: "YouTube",
-    link: "https://youtube.com/c/gabrielazevedo0x/",
+    link: "https://youtube.com/c/gabr1el0x/",
     fontAwesomeIcon: "fa-youtube",
     backgroundColor: "#FF0000",
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/gabrielazevedo0x/",
+    link: "https://www.instagram.com/gabr1el0x/",
     fontAwesomeIcon: "fa-instagram",
     backgroundColor: "#E7008A",
   },
   {
     name: "X-Twitter",
-    link: "https://x.com/gabrielazevedo0x/",
+    link: "https://x.com/gabr1el0x/",
     fontAwesomeIcon: "fa-x-twitter",
     backgroundColor: "#000000",
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/gabrielazevedo0x/",
+    link: "https://www.facebook.com/gabr1el0x/",
     fontAwesomeIcon: "fa-facebook-f",
     backgroundColor: "#0165E1",
   },
@@ -452,7 +452,7 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Assistente de Suporte TI",
+          title: "Assistente de Suporte de TI",
           company: "MMarra Distribuidora Automotiva",
           company_url: "https://www.mmarra.com.br/",
           logo_path: "mmarra_logo.png",
@@ -468,6 +468,15 @@ const experience = {
       title: "Estágios",
       experiences: [
         {
+                    title: "Assistente de Suporte TI",
+          company: "MMarra Distribuidora Automotiva",
+          company_url: "https://www.mmarra.com.br/",
+          logo_path: "mmarra_logo.png",
+          duration: "(Março 2024 - Presente)",
+          location: "Ribeirão Preto - SP",
+          description:
+            "• I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+          color: "#007bd1",
         },
       ],
     },
@@ -475,6 +484,15 @@ const experience = {
       title: "Voluntários",
       experiences: [
         {
+                    title: "Assistente de Suporte TI",
+          company: "MMarra Distribuidora Automotiva",
+          company_url: "https://www.mmarra.com.br/",
+          logo_path: "mmarra_logo.png",
+          duration: "(Março 2024 - Presente)",
+          location: "Ribeirão Preto - SP",
+          description:
+            "• I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+          color: "#007bd1",
         },
       ],
     },
@@ -524,8 +542,8 @@ const contactPageData = {
   },
   addressSection: {
     title: "Endereço",
-    subtitle: "• R. Humberto Ortolan 450, Sertãozinho - SP",
-    locality: "Sertãozinho - SP",
+    subtitle: "• R. Humberto Ortolan 450, Sertãozinho | SP",
+    locality: "Sertãozinho | SP",
     country: "Brasil",
     region: "São Paulo",
     postalCode: "14160-210",
