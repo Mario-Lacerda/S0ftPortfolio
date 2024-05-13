@@ -207,7 +207,7 @@ Agora, você precisa gerar uma compilação de produção e implantar o site.
 1. Execute `npm run deploy` para compilar e criar uma `branch` chamada `gh-pages`. Ele enviará os arquivos build para essa branch.
 
 2. A última etapa da implantação é habilitar o `GitHub Pages` nas configurações do repositório e selecionar a `branch gh-pages`.
-Agora, seu site está implantado com sucesso e você pode visitá-lo em <seu-username-github>.github.io.
+Agora, seu site está implantado com sucesso e você pode visitá-lo em: <seu-username-github>.github.io.
 
 <p align="center"> 
     <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
@@ -230,7 +230,7 @@ Agora, seu site está implantado com sucesso e você pode visitá-lo em <seu-use
 
 # 📄 Licença
 
-Esse projeto utiliza-se (Licença MIT) - Veja: [LICENSE.md](./LICENSE) para mais detalhes.
+Esse projeto utiliza (Licença MIT) | Veja: [LICENSE.md](./LICENSE) para mais detalhes.
 
 # ✨ Contribuições
 
