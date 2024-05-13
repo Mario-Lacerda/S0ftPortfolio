@@ -20,6 +20,8 @@
 
 <img src="https://raw.githubusercontent.com/dustin100/dustin100/master/assests/git-original.svg" height="auto" width="40">
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" height="auto" width="40">
+
 </p>
 
 <p align="center"> 
@@ -244,4 +246,4 @@ Veja: [LICENSE.md](./LICENSE), para mais detalhes.
 # 👏🏻 Referências
 
 - Este projeto incorpora conceitos de design e implementação inspirados em portfólios de desenvolvedores renomados:
-- [Saad Pasta's](https://github.com/saadpasta/developerFolio). | [Ashutosh1919's](https://github.com/ashutosh1919/masterPortfolio).
+- [Saad Pasta's](https://github.com/saadpasta/developerFolio) | [Ashutosh1919's](https://github.com/ashutosh1919/masterPortfolio)
