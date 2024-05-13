@@ -80,35 +80,39 @@ npm start
 
 Este guia permite que você personalize seu portfólio online, tornando-o uma representação única e impactante de suas habilidades e experiências. Aqui estão as principais áreas que você pode modificar:
 
-1. Arquivo package.json
+- Arquivo package.json
 
-Localize este arquivo no diretório principal do seu projeto.
+1. Localize este arquivo no diretório principal do seu projeto.
 Altere a propriedade "name" para refletir o identificador preferido do seu site.
 
-Atualize a propriedade "homepage" para `https://<seu-username-github>.github.io/`. Certifique-se de incluir `https://` para garantir o carregamento correto das fontes.
+2. Atualize a propriedade "homepage" para `https://<seu-username-github>.github.io/`. Certifique-se de incluir `https://` para garantir o carregamento correto das fontes.
 
-2. Informações Pessoais
+- Informações Pessoais
 
-Abra o diretório `src/portfolio.js`. Este arquivo contém dados sobre você.
+1. Abra o diretório `src/portfolio.js`. Este arquivo contém dados sobre você.
 Modifique as seguintes seções dentro de `portfolio.js` para adaptá-las ao seu histórico:
 
-3. Página Inicial: Seção (greeting) para sua introdução e mensagem de boas-vindas.
+2. Página Inicial:
+Seção (greeting) para sua introdução e mensagem de boas-vindas.
 
-3. Mídias Sociais: (socialMediaLinks) para seus perfis de mídia social (links e ícones).
+4. Mídias Sociais:
+(socialMediaLinks) para seus perfis de mídia social (links e ícones).
 
-4. Detalhes Profissionais: (Experiência, Educação, Habilidades, Certificações) *logos, ícones, etc...*
+5. Detalhes Profissionais:(Experiência, Educação, Habilidades, Certificações) *logos, ícones, etc...*
 
-5. Blog: Inclua os detalhes do seu blog, se aplicável (link, descrição).
+6. Blog:
+Inclua os detalhes do seu blog, se aplicável (link, descrição).
 
-6. Informações de Contato: Adicione seus dados de contato: *e-mail, telefone etc...*
+7. Informações de Contato:
+Adicione seus dados de contato: *e-mail, telefone etc...*
 
 ### Ícones na Página Inicial
 
-Fonte de Dados: A seção de habilidades obtém dados do array skills dentro de `portfolio.js`.
+Fonte de Dados: A seção de habilidades obtém dados do array `skills` dentro de `portfolio.js`.
 
-1. Adicionando Ícones:
+- Adicionando Ícones:
 
-Visite [Iconify](https://icon-sets.iconify.design/) e procure o ícone de habilidade desejada.
+1. Visite [Iconify](https://icon-sets.iconify.design/) e procure o ícone de habilidade desejada.
 Selecione o ícone de sua preferência.
 Copie o texto exibido ao lado de "Ícone Selecionado".
 
@@ -125,20 +129,22 @@ Para estilizar a imagem, use a propriedade `style` dentro de `softwareSkill`.
 
 ### Informações do GitHub
 
-1. Busca de Dados: `fetcher.mjs` no diretório principal, recupera dados do GitHub *pull requests, issues etc...*
+1. Busca de Dados:
+`fetcher.mjs` no diretório principal, recupera dados do GitHub *pull requests, issues etc...*
 
-2. Variáveis de Ambiente:
+3. Variáveis de Ambiente:
 Crie um novo arquivo chamado `.env` no diretório principal.
-Copie o conteúdo de `env.example` para `.env`.
 
-3. Dentro de `.env`, atualize:
+4. Copie o conteúdo de `env.example` para `.env`.
+
+5. Dentro de `.env`, atualize:
 `GITHUB_TOKEN`: Obtenha um token de acesso pessoal do GitHub [Token](https://github.com/settings/tokens) concedendo todas as permissões.
 `GITHUB_USERNAME`: Defina como seu nome de usuário do GitHub.
 
-4. Executando o Script de Atualização:
+6. Executando o Script de Atualização:
 Certifique-se de ter executado o comando `npm install` previamente.
 
-5. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **(Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.)**
+7. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **(Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.)**
 
 ### Logo de Abertura
 
@@ -147,8 +153,8 @@ O logotipo animado apresentado no site de exemplo utiliza o `Figma` para design 
 - Alternativas:
 
 1. Crie Seu Próprio Logo:
-Use [Figma](https://www.figma.com/), `Adobe XD`, `Adobe Illustrator` ou `Inkscape` para criar o logotipo.
-Para animação, consulte o diretório `./src/components/Loader` para exemplos `chosenTheme`
+Use [Figma](https://www.figma.com/), `Adobe XD`, `Adobe Illustrator` ou `Inkscape` *para criar o logotipo.
+Para animação, consulte o diretório `./src/components/Loader` para exemplos `chosenTheme`*
 2. Desativar a Tela de Abertura:
 Abra `src/portfolio.js`.
 Localize o objeto `settings`.
