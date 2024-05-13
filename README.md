@@ -2,8 +2,8 @@
     <img src="images/S0ftPortfolio.svg" align="center" height="150"></img>
 </p>
 
-<h1 align="center"> - S0ftPortfolio </h1> 
-<h3 align="center"> 💻 O modelo completo de portfólio para profissionais de T.I, <br/> 100% personalizável onde permite mostrar seus trabalhos fornecendo todos os detalhes sobre você! </h3>
+<h1 align="center">・S0ftPortfolio </h1> 
+<h3 align="center"> 💻 O modelo completo de portfólio para profissionais de (TI), <br/> 100% personalizável onde permite mostrar seus trabalhos fornecendo todos os detalhes sobre você! </h3>
 
 <p align="center">
   <a href="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio.svg" /></a>
