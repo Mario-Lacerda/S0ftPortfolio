@@ -247,8 +247,4 @@ Esse projeto utiliza (Licença MIT) | Veja: [LICENSE.md](./LICENSE), para mais d
 # 👏🏻 Referências
 
 - Este projeto incorpora conceitos de design e implementação inspirados em portfólios de desenvolvedores renomados:
-- [Saad Pasta's Developer Portfolio](https://github.com/saadpasta/developerFolio). | [Ashutosh1919's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
-
-
-- Some Design and Implementation Ideas are taken from [Saad Pasta's Developer Portfolio](https://github.com/saadpasta/developerFolio).
--  [Ashutosh1919's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
+- [Saad Pasta's](https://github.com/saadpasta/developerFolio). | [Ashutosh1919's](https://github.com/ashutosh1919/masterPortfolio).
