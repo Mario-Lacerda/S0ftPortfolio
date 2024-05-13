@@ -196,7 +196,7 @@ Você pode definir novos temas de maneira semelhante a outros temas e pode atrib
 
 # 📦 Hospedagem
 
-### Deixando Seu Portfólio Online!
+### Deixando seu Portfólio online!
 
 Agora que você concluiu todas as etapas anteriores com sucesso, é hora de colocar seu site online!
 **Eu altamente recomendo usar o `GitHub Pages` para fazer isso da maneira mais fácil.**
