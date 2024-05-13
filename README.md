@@ -222,13 +222,10 @@ Agora, seu site está implantado com sucesso e você pode visitá-lo em: `<seu-u
   </a>
 </p>
 
-# 🍥 Ilustrações
-
-- [UnDraw](https://undraw.co/illustrations)
-
 # 📄 Licença
 
-Esse projeto utiliza (Licença MIT) | Veja: [LICENSE.md](./LICENSE), para mais detalhes.
+Esse projeto utiliza (Licença MIT)
+Veja: [LICENSE.md](./LICENSE), para mais detalhes.
 
 # ✨ Contribuições
 
