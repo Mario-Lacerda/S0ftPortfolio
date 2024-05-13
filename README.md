@@ -86,7 +86,7 @@ Este guia permite que você personalize seu portfólio online, tornando-o uma re
 
 2. Altere a propriedade `"name"` para refletir o identificador preferido do seu site.
 
-3. Atualize a propriedade `"homepage"` para `https://<seu-username-github>.github.io/`.
+3. Atualize a propriedade `"homepage"` para `https://<seu-username-github>.github.io`.
 *Certifique-se de incluir `https://` para garantir o carregamento correto das fontes*.
 
 - Informações Pessoais
@@ -96,13 +96,13 @@ Este guia permite que você personalize seu portfólio online, tornando-o uma re
 2. Modifique as seguintes seções dentro de `portfolio.js` para adaptá-las ao seu histórico:
 
 3. Página Inicial:
-Seção `(greeting)` para sua introdução e mensagem de boas-vindas.
+Seção `greeting` para sua introdução e mensagem de boas-vindas.
 
 4. Mídias Sociais:
-`(socialMediaLinks)` para seus perfis de mídia social *links e ícones*.
+`socialMediaLinks` para seus perfis de mídia social *links e ícones*.
 
 6. Detalhes Profissionais:
-`(Experiência, Educação, Habilidades, Certificações)` *logos, ícones, etc...*
+`Experiência, Educação, Habilidades, Certificações` *logos, ícones, etc...*
 
 7. Blog:
 Inclua os detalhes do seu blog, se aplicável *link, descrição*.
@@ -240,14 +240,11 @@ Esse projeto utiliza (Licença MIT) | Veja: [LICENSE.md](./LICENSE) para mais de
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="http://ashutosh1919.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4?s=100" width="100px;" alt="Ashutosh Hathidara"/><br /><sub><b>Ashutosh Hathidara</b></sub></a><br /><a href="https://github.com/gabr1el0x/S0ftPortfolio/commits?author=gabr1el0x" title="Code">💻</a> <a href="https://github.com/ashutosh1919/masterPortfolio/commits?author=ashutosh1919" title="Documentation">📖</a> <a href="#design-ashutosh1919" title="Design">🎨</a> <a href="#maintenance-ashutosh1919" title="Maintenance">🚧</a> <a href="#ideas-ashutosh1919" title="Ideas, Planning, & Feedback">🤔</a>
-</td>
+      <td align="center" valign="top" width="14.28%"><a href="http://gabr1el0x.github.io"><img src="https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4?s=100" width="100px;" alt="Gabriel Azevedo"/><br /><sub><b>Gabriel Azevedo</b></sub></a><br /><a href="https://github.com/gabr1el0x/S0ftPortfolio/commits?author=gabr1el0x" title="Code">💻</a> <a href="https://github.com/gabr1el0x/S0ftPortfolio/commits?author=gabr1el0x" title="Documentation">📖</a> <a href="#design-gabr1el0x" title="Design">🎨</a> <a href="#maintenance-gabr1el0x" title="Maintenance">🚧</a> <a href="#ideas-gabr1el0x" title="Ideas, Planning, & Feedback">🤔</a>
+  </td>
     </tr>
   </tbody>
 </table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
