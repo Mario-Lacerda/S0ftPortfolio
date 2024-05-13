@@ -54,8 +54,7 @@ Após a instalação bem-sucedida do Node.JS e NPM, abra o terminal e execute o 
 ```Bash
 git clone https://github.com/gabri1el0x/S0ftPortfolio.git
 ```
-
-### (Este comando irá baixar todos os arquivos do projeto para a sua máquina.)
+*Este comando irá baixar todos os arquivos do projeto para a sua máquina.*
 
 • Instalação de dependências:
 
@@ -64,9 +63,7 @@ Navegue até o diretório onde o repositório clonado foi armazenado e execute o
 ```Bash
 npm install
 ```
-
-### (Este comando irá baixar e instalar todas as bibliotecas externas utilizadas pelo projeto.)
-
+*Este comando irá baixar e instalar todas as bibliotecas externas utilizadas pelo projeto.*
 • Executando o projeto:
 
 Com as dependências instaladas, você já pode iniciar o projeto localmente. Execute o seguinte comando no terminal:
@@ -74,8 +71,7 @@ Com as dependências instaladas, você já pode iniciar o projeto localmente. Ex
 ```Bash
 npm start
 ```
-
-### (Este comando irá iniciar o servidor de desenvolvimento e abrir o website em seu navegador.)
+*Este comando irá iniciar o servidor de desenvolvimento e abrir o website em seu navegador.*
 
 # ✏️ Customização
 
