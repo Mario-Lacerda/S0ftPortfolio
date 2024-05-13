@@ -228,7 +228,7 @@ Agora, seu site está implantado com sucesso e você pode visitá-lo em: `<seu-u
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="15%"><a href="http://gabr1el0x.github.io"><img src="https://avatars.githubusercontent.com/u/142058198?s=400&u=23d2e46f8209dbc083982c306e60fccc35cd3297&v=4" width="100px;" alt="Gabriel Azevedo"/><br /><sub><b>Gabriel Azevedo</b></sub></a><br /><a href="https://github.com/gabr1el0x/S0ftPortfolio/commits?author=gabr1el0x" title="Code">💻</a> <a href="https://github.com/gabr1el0x/S0ftPortfolio/commits?author=gabr1el0x" title="Documentation">📖</a> <a href="#design-gabr1el0x" title="Design">🎨</a> <a href="#maintenance-gabr1el0x" title="Maintenance">🚧</a> <a href="#ideas-gabr1el0x" title="Ideas, Planning, & Feedback">🤔</a>
+      <td align="center" valign="top" width="14.28%"><a href="http://gabr1el0x.github.io"><img src="https://avatars.githubusercontent.com/u/142058198?s=400&u=23d2e46f8209dbc083982c306e60fccc35cd3297&v=4" width="100px;" alt="Gabriel Azevedo"/><br /><sub><b>Gabriel Azevedo</b></sub></a><br /><a href="https://github.com/gabr1el0x/S0ftPortfolio/commits?author=gabr1el0x" title="Code">💻</a> <a href="https://github.com/gabr1el0x/S0ftPortfolio/commits?author=gabr1el0x" title="Documentation">📖</a> <a href="#design-gabr1el0x" title="Design">🎨</a> <a href="#maintenance-gabr1el0x" title="Maintenance">🚧</a> <a href="#ideas-gabr1el0x" title="Ideas, Planning, & Feedback">🤔</a>
   </td>
     </tr>
   </tbody>
