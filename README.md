@@ -175,7 +175,6 @@ Localize o objeto `settings`.
 ### Alterar os temas do Portfólio
 
 Você pode dar uma olhada no arquivo `src/theme.js` onde todos os temas disponíveis são mencionados com seus respectivos códigos de cores.
-
 Logo abaixo, você verá o código do arquivo:
 
 ```JavaScript
@@ -184,10 +183,9 @@ export const chosenTheme = blueTheme;
 *(Você precisa alterar o nome de `blueTheme` para o tema que deseja definir para o seu site.)*
 
 Você pode definir novos temas de maneira semelhante a outros temas e pode atribuir o nome desse novo tema definido a `chosenTheme`.
-
 É isso. Você só precisa alterar o nome do tema e o código cuidará de todo o resto.
 
-**(Execute `npm start` para verificar se está tudo certo!)**
+*(Execute `npm start` para verificar se está tudo certo!)*
 
 # 📦 Hospedagem
 
