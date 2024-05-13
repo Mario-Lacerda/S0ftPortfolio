@@ -36,18 +36,18 @@
 
 # 📋 Clonagem
 
-- Pré-requisitos de desenvolvimento:
+## Pré-requisitos de desenvolvimento:
   
 Este projeto utiliza a biblioteca `React.JS` do `JavaScript`. Para desenvolvê-lo, é necessário ter o `Node.JS` e o `NPM` instalados em sua máquina.
 
-- Instalação das dependências:
+## Instalação das dependências:
 
 Acesse o site oficial do Node.JS [Download](https://nodejs.org/en) e baixe a versão mais recente estável ou uma versão compatível com os badges indicados no repositório.
 Durante a instalação do Node.JS, o NPM (Node Package Manager) será automaticamente instalado.
 
-- Configurando o ambiente de desenvolvimento
+## Configurando o ambiente de desenvolvimento
 
-- Clone do repositório:
+• Clone do repositório:
 
 Após a instalação bem-sucedida do Node.JS e NPM, abra o terminal e execute o seguinte comando para clonar o repositório para o seu sistema local:
 
@@ -55,9 +55,9 @@ Após a instalação bem-sucedida do Node.JS e NPM, abra o terminal e execute o 
 git clone https://github.com/gabri1el0x/S0ftPortfolio.git
 ```
 
-Este comando irá baixar todos os arquivos do projeto para a sua máquina.
+### (Este comando irá baixar todos os arquivos do projeto para a sua máquina.)
 
-- Instalação de dependências:
+• Instalação de dependências:
 
 Navegue até o diretório onde o repositório clonado foi armazenado e execute o seguinte comando para instalar as dependências necessárias:
 
@@ -65,9 +65,9 @@ Navegue até o diretório onde o repositório clonado foi armazenado e execute o
 npm install
 ```
 
-Este comando irá baixar e instalar todas as bibliotecas externas utilizadas pelo projeto.
+### (Este comando irá baixar e instalar todas as bibliotecas externas utilizadas pelo projeto.)
 
-- Executando o projeto:
+• Executando o projeto:
 
 Com as dependências instaladas, você já pode iniciar o projeto localmente. Execute o seguinte comando no terminal:
 
@@ -75,7 +75,7 @@ Com as dependências instaladas, você já pode iniciar o projeto localmente. Ex
 npm start
 ```
 
-Este comando irá iniciar o servidor de desenvolvimento e abrir o website em seu navegador.
+### (Este comando irá iniciar o servidor de desenvolvimento e abrir o website em seu navegador.)
 
 # ✏️ Customização
 
