@@ -146,15 +146,13 @@ Crie um novo arquivo chamado `.env` no diretório principal.
 4. Copie o conteúdo de `env.example` para `.env`.
 
 5. Dentro de `.env`, atualize:
-`GITHUB_TOKEN`: Obtenha um token de acesso pessoal do GitHub [Token](https://github.com/settings/tokens) concedendo todas as permissões.
-
-7. `GITHUB_USERNAME`:
+`GITHUB_TOKEN`: Obtenha um token de acesso pessoal do GitHub [Token](https://github.com/settings/tokens) concedendo todas as permissões. `GITHUB_USERNAME`:
 Defina como seu nome de usuário do GitHub.
 
-8. Executando o Script de Atualização:
+6. Executando o Script de Atualização:
 Certifique-se de ter executado o comando `npm install` previamente.
 
-9. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.**
+7. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.**
 
 ### Logo de Abertura
 
