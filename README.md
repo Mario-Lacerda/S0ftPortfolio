@@ -154,7 +154,7 @@ Defina como seu nome de usuário do GitHub.
 8. Executando o Script de Atualização:
 Certifique-se de ter executado o comando `npm install` previamente.
 
-10. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.**
+9. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.**
 
 ### Logo de Abertura
 
@@ -163,12 +163,13 @@ O logotipo animado apresentado no site de exemplo utiliza o `Figma` para `(Desig
 - Alternativas:
 
 1. Crie Seu Próprio Logo:
-Use [Figma](https://www.figma.com/), `Adobe XD`, `Adobe Illustrator` ou `Inkscape` *para criar o logotipo.
-Para animação, consulte o diretório `./src/components/Loader` para exemplos `chosenTheme`*
-2. Desativar a Tela de Abertura:
-Abra `src/portfolio.js`.
+Use [Figma](https://www.figma.com/), [Adobe XD](https://www.adobe.com/br/), [Adobe Illustrator](https://www.adobe.com/br/) ou [Inkscape](https://inkscape.org/pt-br/), para criar o seu próprio logotipo.
 
-3. Localize o objeto `settings`.
+2. Para animação, consulte o diretório: `./src/components/Loader`, para exemplos: `chosenTheme`
+
+3. Desativar a Tela de Abertura:
+Abra `src/portfolio.js`.
+Localize o objeto `settings`.
 
 
 # 🌈 Temas
