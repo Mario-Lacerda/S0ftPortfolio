@@ -6,16 +6,6 @@
 <h3 align="center"> 💻 O modelo completo de portfólio para profissionais de (TI) | 100% personalizável onde permite mostrar seus trabalhos fornecendo todos os detalhes sobre você! </h3>
 
 <p align="center">
-  <a href="https://www.javascript.com/"><img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-  <a href="https://nodejs.org/en/blog/release/v20.11.1"><img alt="Node.JS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <a href="https://www.npmjs.com/package/npm/v/10.2.4"><img alt="NPM" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>
-  <a href="https://reactjs.org/"><img alt="React.JS" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
-  <a href="https://www.figma.com/"/><img alt="Figma" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
-  <a href="https://app.netlify.com/sites/S0ftPortfolio/deploys"><img alt="Netlify" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"/>
-  <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Visual Studio Code" src="https://img.shields.io/badge/VSCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-</p>
-
-<p align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="auto" width="40">
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="auto" width="40">
@@ -38,7 +28,7 @@
   </a>
 </p>
 
-<h3 align="center"> ⭐ Avalie o Projeto! | Ajuda Demais! (+) </h3>
+<h3 align="center"> ⭐ Avalie o Projeto! (+) </h3>
 
 # 📚 Sessões
 
@@ -232,28 +222,17 @@ Agora, seu site está implantado com sucesso e você pode visitá-lo em: `<seu-u
   </a>
 </p>
 
-# 🛠️ Tecnologias
-
-- [ReactJS](https://reactjs.org/)
-- [GraphQL](https://graphql.org/)
-- [Apollo-Boost](https://www.apollographql.com/docs/react/get-started/)
-- [BaseUI](https://github.com/uber/baseweb)
-- [React-Reveal](https://www.react-reveal.com/)
-- [Styled-Components](https://styled-components.com/)
-
 # 🍥 Ilustrações
 
 - [UnDraw](https://undraw.co/illustrations)
 
 # 📄 Licença
 
-Esse projeto utiliza (Licença MIT) | Veja: [LICENSE.md](./LICENSE) para mais detalhes.
+Esse projeto utiliza (Licença MIT) | Veja: [LICENSE.md](./LICENSE), para mais detalhes.
 
 # ✨ Contribuições
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<!-- ALL-CONTRIBUTORS-LIST:START -->
 <table>
   <tbody>
     <tr>
@@ -267,5 +246,9 @@ Esse projeto utiliza (Licença MIT) | Veja: [LICENSE.md](./LICENSE) para mais de
 
 # 👏🏻 Referências
 
+- Este projeto incorpora conceitos de design e implementação inspirados em portfólios de desenvolvedores renomados:
+- [Saad Pasta's Developer Portfolio](https://github.com/saadpasta/developerFolio). | [Ashutosh1919's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
+
+
 - Some Design and Implementation Ideas are taken from [Saad Pasta's Developer Portfolio](https://github.com/saadpasta/developerFolio).
-- Some Design and Implementation Ideas are taken from [Ashutosh1919's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
+-  [Ashutosh1919's Master Portfolio](https://github.com/ashutosh1919/masterPortfolio).
