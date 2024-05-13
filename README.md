@@ -45,16 +45,16 @@
 
 # 📋 Clonagem
 
-### Pré-requisitos de desenvolvimento:
+### Pré-requisitos de desenvolvimento.
   
 Este projeto utiliza a biblioteca `React.JS` do `JavaScript`. Para desenvolvê-lo, é necessário ter o `Node.JS` e o `NPM` instalados em sua máquina.
 
-### Instalação das dependências:
+### Instalação das dependências.
 
 Acesse o site oficial do `Node.JS` [Download](https://nodejs.org/en) e baixe a versão mais recente estável ou uma versão compatível com os badges indicados no repositório.
 Durante a instalação do `Node.JS`, o `NPM` (Node Package Manager) será automaticamente instalado.
 
-### Configurando o ambiente de desenvolvimento
+### Configurando o ambiente de desenvolvimento.
 
 - Clone do repositório:
 
@@ -85,7 +85,7 @@ npm start
 
 # ✏️ Customização
 
-### Personalizando seu Portfólio Online
+### Personalizando seu Portfólio Online!
 
 Este guia permite que você personalize seu portfólio online, tornando-o uma representação única e impactante de suas habilidades e experiências. Aqui estão as principais áreas que você pode modificar:
 
@@ -119,12 +119,12 @@ Inclua os detalhes do seu blog, se aplicável *link, descrição*.
 8. Informações de Contato:
 Adicione seus dados de contato: *e-mail, telefone etc...*
 
-### Ícones na Página Inicial
+### Ícones na Página Inicial.
 
 Fonte de Dados:
 A seção de habilidades obtém dados do array `skills` dentro de `portfolio.js`.
 
-- Adicionando Ícones:
+- Adicionando Ícones
 
 1. Visite [Iconify](https://icon-sets.iconify.design/) e procure o ícone de habilidade desejada.
 Selecione o ícone de sua preferência.
@@ -134,7 +134,7 @@ Copie o texto exibido ao lado de "Ícone Selecionado".
 
 3. Substitua a propriedade `fontAwesomeClassName` desse objeto `softwareSkill` pelo texto copiado.
 
-### Imagens Personalizadas:
+### Imagens Personalizadas.
 
 1. Coloque o arquivo de imagem no diretório `public/skills`.
 Dentro de `portfolio.js`, para o objeto `softwareSkill` relevante.
@@ -144,7 +144,7 @@ Dentro de `portfolio.js`, para o objeto `softwareSkill` relevante.
 3. Remova ou deixe vazia a propriedade `fontAwesomeClassName`, ela tem prioridade sobre `imageSrc`.
 *Para estilizar a imagem, use a propriedade `style` dentro de `softwareSkill`*.
 
-### Informações do GitHub
+### Informações do GitHub.
 
 1. Busca de Dados:
 `fetcher.mjs` no diretório principal, recupera dados do GitHub *pull requests, issues etc...*
@@ -178,9 +178,9 @@ Abra `src/portfolio.js`.
 Localize o objeto `settings`.
 
 
-# 🌈 Temas
+# 🎨 Temas
 
-### Alterar os temas do Portfólio
+### Alterar os temas do Portfólio.
 
 Você pode dar uma olhada no arquivo `src/theme.js` onde todos os temas disponíveis são mencionados com seus respectivos códigos de cores.
 Logo abaixo, você verá o código do arquivo:
@@ -205,7 +205,7 @@ Para implantar seu site, você tem duas opções. Primeiro, você precisa criar 
 
 Agora, você precisa gerar uma compilação de produção e implantar o site.
 
-- Alternativa 1:
+- Alternativa 1
 
 1. Execute `npm run build` para gerar a pasta de compilação de produção.
 
@@ -218,16 +218,9 @@ Agora, você precisa gerar uma compilação de produção e implantar o site.
 2. A última etapa da implantação é habilitar o `GitHub Pages` nas configurações do repositório e selecionar a `branch gh-pages`.
 Agora, seu site está implantado com sucesso e você pode visitá-lo em: `<seu-username-github>.github.io`.
 
-<p align="center"> 
-    <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
-    <img src="http://img.youtube.com/vi/IwBS39TOmpA/0.jpg"></img>
-  </a>
-</p>
-
 # 📄 Licença
 
-Esse projeto utiliza (Licença MIT)
-Veja: [LICENSE.md](./LICENSE), para mais detalhes.
+- Veja [LICENSE.md](./LICENSE) para mais detalhes.
 
 # ✨ Contribuições
 
