@@ -6,11 +6,15 @@
 <h3 align="center"> 💻 O modelo completo de portfólio para profissionais de (TI), <br/> 100% personalizável onde permite mostrar seus trabalhos fornecendo todos os detalhes sobre você! </h3>
 
 <p align="center">
-  <a href="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio.svg" /></a>
+  <a href="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio.svg" />
+  </a>
   <a href="https://nodejs.org/en/blog/release/v20.11.1"><img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" /></a>
-  <a href="https://www.npmjs.com/package/npm/v/10.2.4"><img alt="NPM" src="https://img.shields.io/badge/npm-10.2.4-blueviolet?style=flat-square" /></a>
-  <a href="https://reactjs.org/"><img alt="ReactJS" src="https://img.shields.io/badge/Feito%20com-ReactJS-61DAFB?style=flat-square" /></a>
-  <a href="https://join.slack.com/t/masterportfolio/shared_invite/zt-g772n1fo-Ns4usanURF8jVb8wk2lRAA"><img alt="Join Slack Channel For Support" src="https://img.shields.io/badge/slack-masterPortfolio-yellow.svg?logo=slack?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/npm/v/10.2.4"><img alt="NPM" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white" />
+  </a>
+  <a href="https://reactjs.org/"><img alt="ReactJS" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+  </a>
+  <a href="https://www.javascript.com/"><img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+  </a>
   <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
   <br/>
   <a href="https://app.netlify.com/sites/ashutosh1919portfolio/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
