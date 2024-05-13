@@ -99,13 +99,13 @@ Este guia permite que você personalize seu portfólio online, tornando-o uma re
 Seção `(greeting)` para sua introdução e mensagem de boas-vindas.
 
 4. Mídias Sociais:
-`(socialMediaLinks)` para seus perfis de mídia social (links e ícones).
+`(socialMediaLinks)` para seus perfis de mídia social *links e ícones*.
 
 6. Detalhes Profissionais:
 `(Experiência, Educação, Habilidades, Certificações)` *logos, ícones, etc...*
 
 7. Blog:
-Inclua os detalhes do seu blog, se aplicável (link, descrição).
+Inclua os detalhes do seu blog, se aplicável *link, descrição*.
 
 8. Informações de Contato:
 Adicione seus dados de contato: *e-mail, telefone etc...*
@@ -132,7 +132,7 @@ Dentro de `portfolio.js`, para o objeto `softwareSkill` relevante.
 
 2. Defina a propriedade `imageSrc` como o nome do arquivo da imagem.
 
-3. Remova ou deixe vazia a propriedade `fontAwesomeClassName` (ela tem prioridade sobre `imageSrc`).
+3. Remova ou deixe vazia a propriedade `fontAwesomeClassName`, ela tem prioridade sobre `imageSrc`.
 *Para estilizar a imagem, use a propriedade `style` dentro de `softwareSkill`*.
 
 ### Informações do GitHub
@@ -151,7 +151,7 @@ Crie um novo arquivo chamado `.env` no diretório principal.
 6. Executando o Script de Atualização:
 Certifique-se de ter executado o comando `npm install` previamente.
 
-7. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **(Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.)**
+7. Execute o seguinte comando: `node fetcher.mjs` **(Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.)**
 
 ### Logo de Abertura
 
@@ -192,7 +192,7 @@ Você pode definir novos temas de maneira semelhante a outros temas e pode atrib
 Agora que você concluiu todas as etapas anteriores com sucesso, é hora de colocar seu site online!
 **Eu altamente recomendo usar o `GitHub Pages` para fazer isso da maneira mais fácil.**
 
-Para implantar seu site, você tem duas opções. Primeiro, você precisa criar um repositório GitHub com o nome <seu-username-github>.github.io. **(Por favor, não dê nenhum outro nome a ele.)**
+Para implantar seu site, você tem duas opções. Primeiro, você precisa criar um repositório GitHub com o nome `<seu-username-github>.github.io`. **Por favor, não dê nenhum outro nome a ele.**
 
 Agora, você precisa gerar uma compilação de produção e implantar o site.
 
@@ -200,14 +200,14 @@ Agora, você precisa gerar uma compilação de produção e implantar o site.
 
 1. Execute `npm run build` para gerar a pasta de compilação de produção.
 
-2. Entre na pasta de compilação, execute `git init` e envie o código gerado para a `branch master` do seu novo repositório no GitHub. Você pode precisar executar git init e forçar o envio a cada nova compilação!
+2. Entre na pasta de compilação, execute `git init` e envie o código gerado para a `branch master` do seu novo repositório no GitHub. Você pode precisar executar `git init` e forçar o envio a cada nova compilação!
 
 - Alternativa 2
 
 1. Execute `npm run deploy` para compilar e criar uma `branch` chamada `gh-pages`. Ele enviará os arquivos build para essa branch.
 
 2. A última etapa da implantação é habilitar o `GitHub Pages` nas configurações do repositório e selecionar a `branch gh-pages`.
-Agora, seu site está implantado com sucesso e você pode visitá-lo em: <seu-username-github>.github.io.
+Agora, seu site está implantado com sucesso e você pode visitá-lo em: `<seu-username-github>.github.io`.
 
 <p align="center"> 
     <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
