@@ -83,32 +83,37 @@ Este guia permite que você personalize seu portfólio online, tornando-o uma re
 - Arquivo package.json
 
 1. Localize este arquivo no diretório principal do seu projeto.
-Altere a propriedade "name" para refletir o identificador preferido do seu site.
 
-2. Atualize a propriedade "homepage" para `https://<seu-username-github>.github.io/`. Certifique-se de incluir `https://` para garantir o carregamento correto das fontes.
+2. Altere a propriedade `"name"` para refletir o identificador preferido do seu site.
+
+3. Atualize a propriedade `"homepage"` para `https://<seu-username-github>.github.io/`.
+*Certifique-se de incluir `https://` para garantir o carregamento correto das fontes*.
 
 - Informações Pessoais
 
 1. Abra o diretório `src/portfolio.js`. Este arquivo contém dados sobre você.
-Modifique as seguintes seções dentro de `portfolio.js` para adaptá-las ao seu histórico:
 
-2. Página Inicial:
-Seção (greeting) para sua introdução e mensagem de boas-vindas.
+2. Modifique as seguintes seções dentro de `portfolio.js` para adaptá-las ao seu histórico:
+
+3. Página Inicial:
+Seção `(greeting)` para sua introdução e mensagem de boas-vindas.
 
 4. Mídias Sociais:
-(socialMediaLinks) para seus perfis de mídia social (links e ícones).
+`(socialMediaLinks)` para seus perfis de mídia social (links e ícones).
 
-5. Detalhes Profissionais:(Experiência, Educação, Habilidades, Certificações) *logos, ícones, etc...*
+6. Detalhes Profissionais:
+`(Experiência, Educação, Habilidades, Certificações)` *logos, ícones, etc...*
 
-6. Blog:
+7. Blog:
 Inclua os detalhes do seu blog, se aplicável (link, descrição).
 
-7. Informações de Contato:
+8. Informações de Contato:
 Adicione seus dados de contato: *e-mail, telefone etc...*
 
 ### Ícones na Página Inicial
 
-Fonte de Dados: A seção de habilidades obtém dados do array `skills` dentro de `portfolio.js`.
+Fonte de Dados:
+A seção de habilidades obtém dados do array `skills` dentro de `portfolio.js`.
 
 - Adicionando Ícones:
 
@@ -117,15 +122,18 @@ Selecione o ícone de sua preferência.
 Copie o texto exibido ao lado de "Ícone Selecionado".
 
 2. Em `portfolio.js`, localize o objeto `softwareSkill` correspondente para aquela habilidade.
-Substitua a propriedade `fontAwesomeClassName` desse objeto `softwareSkill` pelo texto copiado.
+
+3. Substitua a propriedade `fontAwesomeClassName` desse objeto `softwareSkill` pelo texto copiado.
 
 ### Imagens Personalizadas:
 
 1. Coloque o arquivo de imagem no diretório `public/skills`.
-Dentro de `portfolio.js`, para o objeto `softwareSkill` relevante, defina a propriedade `imageSrc` como o nome do arquivo da imagem.
+Dentro de `portfolio.js`, para o objeto `softwareSkill` relevante.
 
-2. Remova ou deixe vazia a propriedade `fontAwesomeClassName` (ela tem prioridade sobre `imageSrc`).
-Para estilizar a imagem, use a propriedade `style` dentro de `softwareSkill`.
+2. Defina a propriedade `imageSrc` como o nome do arquivo da imagem.
+
+3. Remova ou deixe vazia a propriedade `fontAwesomeClassName` (ela tem prioridade sobre `imageSrc`).
+*Para estilizar a imagem, use a propriedade `style` dentro de `softwareSkill`*.
 
 ### Informações do GitHub
 
@@ -139,16 +147,18 @@ Crie um novo arquivo chamado `.env` no diretório principal.
 
 5. Dentro de `.env`, atualize:
 `GITHUB_TOKEN`: Obtenha um token de acesso pessoal do GitHub [Token](https://github.com/settings/tokens) concedendo todas as permissões.
-`GITHUB_USERNAME`: Defina como seu nome de usuário do GitHub.
 
-6. Executando o Script de Atualização:
+7. `GITHUB_USERNAME`:
+Defina como seu nome de usuário do GitHub.
+
+8. Executando o Script de Atualização:
 Certifique-se de ter executado o comando `npm install` previamente.
 
-7. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.**
+10. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.**
 
 ### Logo de Abertura
 
-O logotipo animado apresentado no site de exemplo utiliza o `Figma` para `design` e `CSS3` para animação. *Esta parte específica não é personalizável*.
+O logotipo animado apresentado no site de exemplo utiliza o `Figma` para `(Design)` e `(CSS3)` para animação. *Esta parte específica não é personalizável*.
 
 - Alternativas:
 
@@ -157,7 +167,8 @@ Use [Figma](https://www.figma.com/), `Adobe XD`, `Adobe Illustrator` ou `Inkscap
 Para animação, consulte o diretório `./src/components/Loader` para exemplos `chosenTheme`*
 2. Desativar a Tela de Abertura:
 Abra `src/portfolio.js`.
-Localize o objeto `settings`.
+
+3. Localize o objeto `settings`.
 
 
 # 🌈 Temas
