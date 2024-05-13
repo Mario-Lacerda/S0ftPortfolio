@@ -1,1 +1,4 @@
-{"status":"error","message":"Cannot download this RSS feed, make sure the Rss URL is correct."}
+{
+  "status":"error",
+  "message":"Cannot download this RSS feed, make sure the Rss URL is correct."
+}
