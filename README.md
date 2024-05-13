@@ -146,13 +146,12 @@ Crie um novo arquivo chamado `.env` no diretório principal.
 4. Copie o conteúdo de `env.example` para `.env`.
 
 5. Dentro de `.env`, atualize:
-`GITHUB_TOKEN`: Obtenha um token de acesso pessoal do GitHub [Token](https://github.com/settings/tokens) concedendo todas as permissões. `GITHUB_USERNAME`:
-Defina como seu nome de usuário do GitHub.
+`GITHUB_TOKEN`: Obtenha um token de acesso pessoal do GitHub [Token](https://github.com/settings/tokens) concedendo todas as permissões. `GITHUB_USERNAME`: Defina como seu nome de usuário do GitHub.
 
 6. Executando o Script de Atualização:
 Certifique-se de ter executado o comando `npm install` previamente.
 
-7. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.**
+7. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **(Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.)**
 
 ### Logo de Abertura
 
@@ -163,9 +162,9 @@ O logotipo animado apresentado no site de exemplo utiliza o `Figma` para `(Desig
 1. Crie Seu Próprio Logo:
 Use [Figma](https://www.figma.com/), [Adobe XD](https://www.adobe.com/br/), [Adobe Illustrator](https://www.adobe.com/br/) ou [Inkscape](https://inkscape.org/pt-br/), para criar o seu próprio logotipo.
 
-2. Para animação, consulte o diretório: `./src/components/Loader`, para exemplos: `chosenTheme`
+3. Para animação, consulte o diretório: `./src/components/Loader`, para exemplos: `chosenTheme`
 
-3. Desativar a Tela de Abertura:
+4. Desativar a Tela de Abertura:
 Abra `src/portfolio.js`.
 Localize o objeto `settings`.
 
@@ -184,29 +183,31 @@ export const chosenTheme = blueTheme;
 
 Você pode definir novos temas de maneira semelhante a outros temas e pode atribuir o nome desse novo tema definido a `chosenTheme`.
 É isso. Você só precisa alterar o nome do tema e o código cuidará de todo o resto.
-
-*(Execute `npm start` para verificar se está tudo certo!)*
+**Execute `npm start` para verificar se está tudo certo!**
 
 # 📦 Hospedagem
 
-- Once you are done with your setup and have successfully completed all steps above, you need to put your website online!
-- I highly recommend using [Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) to achieve this the EASIEST WAY.
-- To deploy your website, you have two options. First you need to create a github repository with the name `<your-github-username>.github.io`. Please don't give it any other name.
-- Now, you need to generate a production build and deploy the website.
+### Deixando Seu Portfólio Online!
 
-**Option 1:**
+Agora que você concluiu todas as etapas anteriores com sucesso, é hora de colocar seu site online!
+**Eu altamente recomendo usar o `GitHub Pages` para fazer isso da maneira mais fácil.**
 
-- Run `npm run build` to generate the production build folder.
-- Enter the build folder, `git init` and push the generated code to the `master` branch of your new repository on github. That's it. It's Done.
-- You may need to `git init` and force push at every new build.
+Para implantar seu site, você tem duas opções. Primeiro, você precisa criar um repositório GitHub com o nome <seu-username-github>.github.io. **(Por favor, não dê nenhum outro nome a ele.)**
 
-**Option 2 (will not work with [user pages](https://docs.github.com/en/github/working-with-github-pages/about-github-pages)):**
+Agora, você precisa gerar uma compilação de produção e implantar o site.
 
-- Run `npm run deploy` to build and create a branch called `gh-pages`. It will push the `build` files to that branch.
-- The last step in deploying is to enable `Github Pages` in settings of the repository and select `gh-pages` branch.
+- Alternativa 1:
 
-Now, your website is successfully deployed and you can visit it at `<your-github-username>.github.io`.  
-If you are stuck somewhere and want to observe the deployment process in depth, then please watch below video.
+1. Execute `npm run build` para gerar a pasta de compilação de produção.
+
+2. Entre na pasta de compilação, execute `git init` e envie o código gerado para a `branch master` do seu novo repositório no GitHub. Você pode precisar executar git init e forçar o envio a cada nova compilação!
+
+- Alternativa 2
+
+1. Execute `npm run deploy` para compilar e criar uma `branch` chamada `gh-pages`. Ele enviará os arquivos build para essa branch.
+
+2. A última etapa da implantação é habilitar o `GitHub Pages` nas configurações do repositório e selecionar a `branch gh-pages`.
+Agora, seu site está implantado com sucesso e você pode visitá-lo em <seu-username-github>.github.io.
 
 <p align="center"> 
     <a href="http://www.youtube.com/watch?v=IwBS39TOmpA" target="_blank">
