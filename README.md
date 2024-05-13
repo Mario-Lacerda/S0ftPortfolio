@@ -188,7 +188,7 @@ Logo abaixo, você verá o código do arquivo:
 ```JavaScript
 export const chosenTheme = blueTheme;
 ```
-*(Você precisa alterar o nome de `blueTheme` para o tema que deseja definir para o seu site.)*
+*(Você precisa alterar o nome de `blackTheme` para o tema que deseja definir para o seu site.)*
 
 Você pode definir novos temas de maneira semelhante a outros temas e pode atribuir o nome desse novo tema definido a `chosenTheme`.
 É isso. Você só precisa alterar o nome do tema e o código cuidará de todo o resto.
