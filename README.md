@@ -6,7 +6,7 @@
 <h3 align="center"> 💻 O modelo completo de portfólio para profissionais de T.I, <br/> 100% personalizável onde permite mostrar seus trabalhos fornecendo todos os detalhes sobre você! </h3>
 
 <p align="center">
-  <a href="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gabr1el/S0ftPortfolio.svg" /></a>
+  <a href="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gabr1el0x/S0ftPortfolio.svg" /></a>
   <a href="https://nodejs.org/en/blog/release/v20.11.1"><img alt="NodeJS" src="https://img.shields.io/badge/node-20.11.1-important?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/npm/v/10.2.4"><img alt="NPM" src="https://img.shields.io/badge/npm-10.2.4-blueviolet?style=flat-square" /></a>
   <a href="https://reactjs.org/"><img alt="Feito com ReactJS" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
@@ -18,12 +18,12 @@
   <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://github.com/ashutosh1919/masterPortfolio/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
   <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
-  <a href="https://ashutoshhathidara.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
+  <a href="https://gabrielaffonsoazevedo.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
 </p>
 
 <p align="center"> 
-    <a href="https://gabrielazevedo0x.github.io" target="_blank">
+    <a href="https://gabr1el0x.github.io" target="_blank">
     <img src="images/masterPortfolioThemes.png"></img>
   </a>
 </p>
