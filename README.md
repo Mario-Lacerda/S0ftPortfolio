@@ -36,18 +36,18 @@
 
 # 📋 Clonagem
 
-## Pré-requisitos de desenvolvimento:
+### Pré-requisitos de desenvolvimento:
   
 Este projeto utiliza a biblioteca `React.JS` do `JavaScript`. Para desenvolvê-lo, é necessário ter o `Node.JS` e o `NPM` instalados em sua máquina.
 
-## Instalação das dependências:
+### Instalação das dependências:
 
 Acesse o site oficial do `Node.JS` [Download](https://nodejs.org/en) e baixe a versão mais recente estável ou uma versão compatível com os badges indicados no repositório.
 Durante a instalação do `Node.JS`, o `NPM` (Node Package Manager) será automaticamente instalado.
 
-## Configurando o ambiente de desenvolvimento
+### Configurando o ambiente de desenvolvimento
 
-• Clone do repositório:
+- Clone do repositório:
 
 Após a instalação bem-sucedida do `Node.JS` e `NPM`, abra o terminal e execute o seguinte comando para clonar o repositório para o seu sistema local:
 
@@ -56,7 +56,7 @@ git clone https://github.com/gabri1el0x/S0ftPortfolio.git
 ```
 *(Este comando irá baixar todos os arquivos do projeto para a sua máquina.)*
 
-• Instalação de dependências:
+- Instalação de dependências:
 
 Navegue até o diretório onde o repositório clonado foi armazenado e execute o seguinte comando para instalar as dependências necessárias:
 
@@ -65,7 +65,7 @@ npm install
 ```
 *(Este comando irá baixar e instalar todas as bibliotecas externas utilizadas pelo projeto.)*
 
-• Executando o projeto:
+- Executando o projeto:
 
 Com as dependências instaladas, você já pode iniciar o projeto localmente. Execute o seguinte comando no terminal:
 
@@ -76,95 +76,83 @@ npm start
 
 # ✏️ Customização
 
-In this project, there are basically 4 things that you need to change to customize this to anyone else's portfolio: **package.json**, **Personal Information**, **Github Information** and **Splash Logo**.
+### Personalizando Seu Portfólio Online
 
-### package.json
+Este guia permite que você personalize seu portfólio online, tornando-o uma representação única e impactante de suas habilidades e experiências. Aqui estão as principais áreas que você pode modificar:
 
-Open this file, which is in the main cloned directory, choose any "name" and change "homepage " to `https://<your-github-username>.github.io`. Do not forget the `https://`, otherwise fonts will not load.
+1. Arquivo package.json
 
-### Personal Information
+Localize este arquivo no diretório principal do seu projeto.
+Altere a propriedade "name" para refletir o identificador preferido do seu site.
 
-You will find `src/portfolio.js` file which contains the complete information about the user. The file looks something like below:
+Atualize a propriedade "homepage" para `https://<seu-username-github>.github.io/`. Certifique-se de incluir `https://` para garantir o carregamento correto das fontes.
 
-```javascript
-// Home Page
-const greeting = {
-    ...
-}
+2. Informações Pessoais
 
-// Social Media
-const socialMediaLinks = {
-    ...
-}
+Abra o diretório `src/portfolio.js`. Este arquivo contém dados sobre você.
+Modifique as seguintes seções dentro de `portfolio.js` para adaptá-las ao seu histórico:
 
-...
-```
+3. Página Inicial: Seção (greeting) para sua introdução e mensagem de boas-vindas.
 
-You can change the personal information, experience, education, social media, certifications, blog information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
+3. Mídias Sociais: (socialMediaLinks) para seus perfis de mídia social (links e ícones).
 
-### How to change the icons on homepage under what i do section?
+4. Detalhes Profissionais: (Experiência, Educação, Habilidades, Certificações) *logos, ícones, etc...*
 
-1. This section pulls data from `skills` in portfolio.js file.
-2. Visit this website: https://icon-sets.iconify.design/
-3. Search for the skill you are looking to add.
-4. Select the icon of your choice.
-5. Copy the text beside **Selected Icon** and replace it with `fontAwesomeClassName` of that particular softwareSkill.
+5. Blog: Inclua os detalhes do seu blog, se aplicável (link, descrição).
 
-#### How to use custom images instead of Iconify Icons?
+6. Informações de Contato: Adicione seus dados de contato: *e-mail, telefone etc...*
 
-1. Add a valid image file into the `public/skills` folder
-2. Insert the image name into the `imageSrc` attribute of the particular softwareSkill
-3. Remove the `fontAwesomeClassName` property or leave it empty because it takes precedence over `imageSrc`
-4. Add custom styling to the `img` using the `style` Property
+### Ícones na Página Inicial
 
-### Github Information
+Fonte de Dados: A seção de habilidades obtém dados do array skills dentro de `portfolio.js`.
 
-You will find `git_data_fetcher.mjs` file in the main directory of the repository. This file is used to fetch the data (Pull requests, Issues, Organizations, Pinned projects etc.) from your github.
+1. Adicionando Ícones:
 
-In the project you will see a `env.example` file, create a new file named `.env` and copy contents of `env.example` into it. In that file, you will see the following environment variables
+Visite [Iconify](https://icon-sets.iconify.design/) e procure o ícone de habilidade desejada.
+Selecione o ícone de sua preferência.
+Copie o texto exibido ao lado de "Ícone Selecionado".
 
-```javascript
-GITHUB_TOKEN = your_token;
-GITHUB_USERNAME = your_username;
-```
+2. Em `portfolio.js`, localize o objeto `softwareSkill` correspondente para aquela habilidade.
+Substitua a propriedade `fontAwesomeClassName` desse objeto `softwareSkill` pelo texto copiado.
 
-You can get a github token as described [here](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). Give all permissions while generating token. Add your github username and the token generated in `GITHUB_USERNAME` and `GITHUB_TOKEN` variables in the .env file.
+### Imagens Personalizadas:
 
-Now, you need to run following command. (Make sure you executed `npm install` before this)
+1. Coloque o arquivo de imagem no diretório `public/skills`.
+Dentro de `portfolio.js`, para o objeto `softwareSkill` relevante, defina a propriedade `imageSrc` como o nome do arquivo da imagem.
 
-**Warning:** Treat your tokens like passwords and keep them secret. When working with the API, use tokens as environment variables instead of hardcoding them into your programs.
+2. Remova ou deixe vazia a propriedade `fontAwesomeClassName` (ela tem prioridade sobre `imageSrc`).
+Para estilizar a imagem, use a propriedade `style` dentro de `softwareSkill`.
 
-```node
-node fetcher.mjs
-```
+### Informações do GitHub
 
-This will fetch all the data from your github and it will automatically replace my data with yours.
-Whenever you want to update the github related information on the website you need to run this command.
+1. Busca de Dados: `fetcher.mjs` no diretório principal, recupera dados do GitHub *pull requests, issues etc...*
 
-### Splash Logo
+2. Variáveis de Ambiente:
+Crie um novo arquivo chamado `.env` no diretório principal.
+Copie o conteúdo de `env.example` para `.env`.
 
-Note here that if you click [S0ftPortfolio](https://gabr1el0x.github.io), you can see animating the logo at the beginning. I have designed that logo in [`Figma`](https://www.figma.com/) and then animated it using css.
-Therefore, this part of portfolio is not customizable. But don't worry we have a solution to this problem. You have below two alternatives:
+3. Dentro de `.env`, atualize:
+`GITHUB_TOKEN`: Obtenha um token de acesso pessoal do GitHub [Token](https://github.com/settings/tokens) concedendo todas as permissões.
+`GITHUB_USERNAME`: Defina como seu nome de usuário do GitHub.
 
-- If you want to design your own logo, then you can design it using `Figma` or `Adobe XD` or `Adobe Illustrator` or `Inkscape`. If you want to animate it, you can refer to `./src/components/Loader` directory which contains `js` and `css` files which animates the logo
-- If you don't want Splash screen or you don't know how to design logo, then this option is for you
+4. Executando o Script de Atualização:
+Certifique-se de ter executado o comando `npm install` previamente.
 
-  - You can open `src/portfolio.js` file and at the top of this file you will see `settings` component as below:
-    ```javascript
-    // Website related settings
-    const settings = {
-      isSplash: true,
-    };
-    ```
-  - Change `isSplash` from `true` to `false`
-  - Now, if you see your website using `npm start`, it will directly open `home` rather than animating logo `splash` screen
-  - If you design your logo in future, then edit the files in `./src/components/Loader` and then revert `isSplash` to `true` in `src/portfolio.js`.
+5. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **(Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.)**
 
-## Other
+### Logo de Abertura
 
-- You need to change the website title and other descriptions in `public/index.html`
-- You can define your own favicon in `public/icons` directory. If you don't have a favicon, you can generate favicons from [Favicon Generator](https://www.favicon-generator.org/) and [Favicon IO](https://favicon.io/)
-- You can also edit your website preview (known as description image). Run your site locally, take a screenshot and replace with `public/icons/desc.png`. Note that your screenshot should be 1280x640 for better preview.
+O logotipo animado apresentado no site de exemplo utiliza o `Figma` para design e CSS para animação. *Esta parte específica não é personalizável*.
+
+- Alternativas:
+
+1. Crie Seu Próprio Logo:
+Use [Figma](https://www.figma.com/), `Adobe XD`, `Adobe Illustrator` ou `Inkscape` para criar o logotipo.
+Para animação, consulte o diretório `./src/components/Loader` para exemplos `chosenTheme`
+2. Desativar a Tela de Abertura:
+Abra `src/portfolio.js`.
+Localize o objeto `settings`.
+
 
 # 🌈 Temas
 
