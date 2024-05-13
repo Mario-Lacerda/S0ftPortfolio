@@ -7,9 +7,9 @@
 
 <p align="center">
   <a href="https://www.javascript.com/"><img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-  <a href="https://nodejs.org/en/blog/release/v20.11.1"><img alt="NodeJS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <a href="https://nodejs.org/en/blog/release/v20.11.1"><img alt="Node.JS" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/>
   <a href="https://www.npmjs.com/package/npm/v/10.2.4"><img alt="NPM" src="https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white"/>
-  <a href="https://reactjs.org/"><img alt="ReactJS" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+  <a href="https://reactjs.org/"><img alt="React.JS" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
   <a href="https://www.figma.com/"/><img alt="Figma" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"/>
   <a href="https://app.netlify.com/sites/S0ftPortfolio/deploys"><img alt="Netlify" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7"/>
   <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Visual Studio Code" src="https://img.shields.io/badge/VSCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
@@ -42,19 +42,19 @@ Este projeto utiliza a biblioteca `React.JS` do `JavaScript`. Para desenvolvê-l
 
 ## Instalação das dependências:
 
-Acesse o site oficial do Node.JS [Download](https://nodejs.org/en) e baixe a versão mais recente estável ou uma versão compatível com os badges indicados no repositório.
-Durante a instalação do Node.JS, o NPM (Node Package Manager) será automaticamente instalado.
+Acesse o site oficial do `Node.JS` [Download](https://nodejs.org/en) e baixe a versão mais recente estável ou uma versão compatível com os badges indicados no repositório.
+Durante a instalação do `Node.JS`, o `NPM` (Node Package Manager) será automaticamente instalado.
 
 ## Configurando o ambiente de desenvolvimento
 
 • Clone do repositório:
 
-Após a instalação bem-sucedida do Node.JS e NPM, abra o terminal e execute o seguinte comando para clonar o repositório para o seu sistema local:
+Após a instalação bem-sucedida do `Node.JS` e `NPM`, abra o terminal e execute o seguinte comando para clonar o repositório para o seu sistema local:
 
 ```Bash
 git clone https://github.com/gabri1el0x/S0ftPortfolio.git
 ```
-*Este comando irá baixar todos os arquivos do projeto para a sua máquina.*
+*(Este comando irá baixar todos os arquivos do projeto para a sua máquina.)*
 
 • Instalação de dependências:
 
@@ -63,7 +63,8 @@ Navegue até o diretório onde o repositório clonado foi armazenado e execute o
 ```Bash
 npm install
 ```
-*Este comando irá baixar e instalar todas as bibliotecas externas utilizadas pelo projeto.*
+*(Este comando irá baixar e instalar todas as bibliotecas externas utilizadas pelo projeto.)*
+
 • Executando o projeto:
 
 Com as dependências instaladas, você já pode iniciar o projeto localmente. Execute o seguinte comando no terminal:
@@ -71,7 +72,7 @@ Com as dependências instaladas, você já pode iniciar o projeto localmente. Ex
 ```Bash
 npm start
 ```
-*Este comando irá iniciar o servidor de desenvolvimento e abrir o website em seu navegador.*
+*(Este comando irá iniciar o servidor de desenvolvimento e abrir o website em seu navegador.)*
 
 # ✏️ Customização
 
