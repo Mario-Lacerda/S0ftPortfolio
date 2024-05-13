@@ -12,8 +12,8 @@
   <a href="https://reactjs.org/"><img alt="ReactJS" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
   <a href="https://www.figma.com/"><img alt="Figma" src="https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" />
   <a href="https://app.netlify.com/sites/S0ftPortfolio/deploys"><img alt="Netlify" src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" />
-  <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="VSCode" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <a href="https://github.com/gabr1el0x?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/gabr1el0x.svg?style=social&label=Follow&maxAge=2592000" />
+  <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Visual Studio Code" src="https://img.shields.io/badge/VSCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+  <a href="https://github.com/gabr1el0x?tab=followers"><img alt="Followers" src="https://img.shields.io/github/followers/gabr1el0x.svg?style=for-the-badge&label=Follow&maxAge=2592000" />
   <a href="https://github.com/gabr1el0x/S0ftPortfolio/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" />
 </p>
 
