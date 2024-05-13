@@ -144,11 +144,11 @@ Crie um novo arquivo chamado `.env` no diretório principal.
 6. Executando o Script de Atualização:
 Certifique-se de ter executado o comando `npm install` previamente.
 
-7. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **(Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.)**
+7. Execute o seguinte comando (trate tokens como dados confidenciais): `node fetcher.mjs` **Aviso: Nunca compartilhe seus tokens do GitHub; use-os como variáveis de ambiente.**
 
 ### Logo de Abertura
 
-O logotipo animado apresentado no site de exemplo utiliza o `Figma` para design e CSS para animação. *Esta parte específica não é personalizável*.
+O logotipo animado apresentado no site de exemplo utiliza o `Figma` para `design` e `CSS3` para animação. *Esta parte específica não é personalizável*.
 
 - Alternativas:
 
