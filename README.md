@@ -15,6 +15,19 @@
   <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Visual Studio Code" src="https://img.shields.io/badge/VSCode-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 </p>
 
+<p align="center">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="auto" width="40">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="auto" width="40">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="auto" width="40">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="auto" width="40">
+
+<img src="https://raw.githubusercontent.com/dustin100/dustin100/master/assests/git-original.svg" height="auto" width="40">
+
+</p>
+
 <p align="center"> 
     <a href="https://gabr1el0x.github.io" target="_blank">
     <img src="images/masterPortfolioThemes.png"></img>
