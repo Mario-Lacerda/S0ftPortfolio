@@ -17,11 +17,11 @@
 
 <p align="center"> 
     <a href="https://gabr1el0x.github.io" target="_blank">
-    <img src="images/S0ftPortfolioThemes.png"></img>
+    <img src="images/masterPortfolioThemes.png"></img>
   </a>
 </p>
 
-<h3 align="center"> ⭐ Avalie o Projeto! - Ajuda Demais! (+) </h3>
+<h3 align="center"> ⭐ Avalie o Projeto! | Ajuda Demais! (+) </h3>
 
 # 📚 Sessões
 
@@ -36,20 +36,46 @@
 
 # 📋 Clonagem
 
-- The website is completely built on `react-js` library of `javascript` and that's why we need `nodejs` and `npm` installed
-- While installing `nodejs` and `npm`, try to install versions which are equal or greater than the versions mentioned in badges above
-- In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
-- After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
-  ```bash
-   git clone https://github.com/ashutosh1919/masterPortfolio.git
-  ```
-  This will clone the whole repository in your system.
-- To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
-  ```node
-  npm install
-  ```
-- Now the project is ready to use
-- You can check it using `npm start`, it will open the website locally on your browser.
+- Pré-requisitos de desenvolvimento:
+  
+Este projeto utiliza a biblioteca `React.JS` do `JavaScript`. Para desenvolvê-lo, é necessário ter o `Node.JS` e o `NPM` instalados em sua máquina.
+
+- Instalação das dependências:
+
+Acesse o site oficial do Node.JS [Download](https://nodejs.org/en) e baixe a versão mais recente estável ou uma versão compatível com os badges indicados no repositório.
+Durante a instalação do Node.JS, o NPM (Node Package Manager) será automaticamente instalado.
+
+- Configurando o ambiente de desenvolvimento
+
+- Clone do repositório:
+
+Após a instalação bem-sucedida do Node.JS e NPM, abra o terminal e execute o seguinte comando para clonar o repositório para o seu sistema local:
+
+```Bash
+git clone https://github.com/gabri1el0x/S0ftPortfolio.git
+```
+
+Este comando irá baixar todos os arquivos do projeto para a sua máquina.
+
+- Instalação de dependências:
+
+Navegue até o diretório onde o repositório clonado foi armazenado e execute o seguinte comando para instalar as dependências necessárias:
+
+```Bash
+npm install
+```
+
+Este comando irá baixar e instalar todas as bibliotecas externas utilizadas pelo projeto.
+
+- Executando o projeto:
+
+Com as dependências instaladas, você já pode iniciar o projeto localmente. Execute o seguinte comando no terminal:
+
+```Bash
+npm start
+```
+
+Este comando irá iniciar o servidor de desenvolvimento e abrir o website em seu navegador.
 
 # ✏️ Customização
 
