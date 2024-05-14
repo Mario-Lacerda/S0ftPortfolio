@@ -2,7 +2,7 @@ import fetch from "node-fetch";
 import fs from "fs";
 import dotenv from "dotenv";
 
-require("dotenv").config();
+dotenv.config();
 
 const openSource = {
   githubConvertedToken: process.env.GITHUB_TOKEN,
@@ -158,7 +158,7 @@ fetch(baseUrl, {
     cropped["merged"] = merged;
     cropped["totalCount"] = cropped["data"].length;
 
-    console.log("Fetching the Pull Request Data.\n");
+    console.log("Fetching Pull Requests...\n");
     fs.writeFile(
       "./src/shared/opensource/pull_requests.json",
       JSON.stringify(cropped),
@@ -193,7 +193,7 @@ fetch(baseUrl, {
     cropped["closed"] = closed;
     cropped["totalCount"] = cropped["data"].length;
 
-    console.log("Fetching the Issues Data.\n");
+    console.log("Fetching Issues...\n");
     fs.writeFile(
       "./src/shared/opensource/issues.json",
       JSON.stringify(cropped),
@@ -232,7 +232,7 @@ fetch(baseUrl, {
       }
     }
 
-    console.log("Fetching the Contributed Organization Data.\n");
+    console.log("Fetching Contributed Organizations...\n");
     fs.writeFile(
       "./src/shared/opensource/organizations.json",
       JSON.stringify(newOrgs),
@@ -287,14 +287,14 @@ fetch(baseUrl, {
       newProjects["data"].push(obj);
     }
 
-    console.log("Fetching the Pinned Projects Data.\n");
+    console.log("Fetching Pinned Projects...\n");
     fs.writeFile(
       "./src/shared/opensource/projects.json",
       JSON.stringify(newProjects),
       function (err) {
         if (err) {
           console.log(
-            "Error occured in pinned projects 1",
+            "Error Ocurred!",
             JSON.stringify(err)
           );
         }
@@ -302,5 +302,5 @@ fetch(baseUrl, {
     );
   })
   .catch((error) =>
-    console.log("Error occured in pinned projects 2", JSON.stringify(error))
+    console.log("Error Ocurred!", JSON.stringify(error))
   );
