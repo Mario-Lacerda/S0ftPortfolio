@@ -16,16 +16,16 @@ const GithubRepoCard = (props) => {
         <div
           className="repo-card-div"
           onClick={() => openRepoinNewTab(repo.url)}
-          style={{ backgroundColor: theme.highlight }}
+          style={{ backgroundColor: theme.jacketColor }}
         >
           <div className="repo-name-div">
             <svg
               aria-hidden="true"
               className="octicon repo-svg"
-              height="14"
+              height="16"
               role="img"
               viewBox="0 0 12 16"
-              width="12"
+              width="16"
               fill={theme.text}
             >
               <path
@@ -84,7 +84,7 @@ const GithubRepoCard = (props) => {
               className="repo-creation-date subTitle"
               style={{ color: theme.secondaryText }}
             >
-              Criado em: {repo.createdAt.split("T")[0]}
+              Created on {repo.createdAt.split("T")[0]}
             </p>
             <ProjectLanguages
               className="repo-languages"
