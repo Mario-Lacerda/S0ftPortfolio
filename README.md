@@ -142,7 +142,7 @@ Dentro de `portfolio.js`, para o objeto `softwareSkill` relevante.
 2. Defina a propriedade `imageSrc` como o nome do arquivo da imagem.
 
 3. Remova ou deixe vazia a propriedade `fontAwesomeClassName`, ela tem prioridade sobre `imageSrc`.
-*Para estilizar a imagem, use a propriedade `style` dentro de `softwareSkill`*.
+Para estilizar a imagem, use a propriedade `style` dentro de `softwareSkill`.
 
 ### Informações do GitHub.
 
