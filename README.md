@@ -1,5 +1,5 @@
 <p align="center"> 
-    <img src="images/S0ftPortfolioIcon.svg" align="center" height="250"></img>
+    <img src="images/S0ftPortfolioIcon.svg" align="center" height="225"></img>
 </p>
 
 <h1 align="center">・S0ftPortfolio </h1> 
