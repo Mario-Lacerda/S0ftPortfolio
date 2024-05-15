@@ -113,6 +113,10 @@ const query_pinned_projects = {
 		          url,
 		          description,
 		          isFork,
+              forkCount,
+              stargazers {
+                totalCount
+              }
 		          languages(first:10){
 		            nodes{
 		              name
@@ -158,7 +162,7 @@ fetch(baseUrl, {
     cropped["merged"] = merged;
     cropped["totalCount"] = cropped["data"].length;
 
-    console.log("Fetching Pull Requests...\n");
+    console.log("• Fetching Pull Requests...\n");
     fs.writeFile(
       "./src/shared/opensource/pull_requests.json",
       JSON.stringify(cropped),
@@ -193,7 +197,7 @@ fetch(baseUrl, {
     cropped["closed"] = closed;
     cropped["totalCount"] = cropped["data"].length;
 
-    console.log("Fetching Issues...\n");
+    console.log("• Fetching Issues Data...\n");
     fs.writeFile(
       "./src/shared/opensource/issues.json",
       JSON.stringify(cropped),
@@ -232,7 +236,7 @@ fetch(baseUrl, {
       }
     }
 
-    console.log("Fetching Contributed Organizations...\n");
+    console.log("• Fetching Contributing Organizations...\n");
     fs.writeFile(
       "./src/shared/opensource/organizations.json",
       JSON.stringify(newOrgs),
@@ -246,19 +250,19 @@ fetch(baseUrl, {
   .catch((error) => console.log(JSON.stringify(error)));
 
 const languages_icons = {
-  Python: "logos-python",
-  "Jupyter Notebook": "logos-jupyter",
-  HTML: "logos-html-5",
-  CSS: "logos-css-3",
-  JavaScript: "logos-javascript",
-  "C#": "logos-c-sharp",
-  Java: "logos-java",
-  Shell: "simple-icons:shell",
-  Ruby: "logos:ruby",
-  PHP: "logos-php",
-  Dockerfile: "simple-icons:docker",
-  Rust: "logos-rust",
-};
+    Python: "simple-icons:python",
+    TypeScript: "devicon-plain:typescript",
+    HTML: "flowbite:html-solid",
+    CSS: "flowbite:css-solid",
+    JavaScript: "bxl:javascript",
+    "C#": "teenyicons:c-sharp-solid",
+    Java: "la:java",
+    Kotlin: "cib:kotlin",
+    Ruby: "cib:ruby",
+    PHP: "akar-icons:php-fill",
+    Sass: "simple-icons:sass",
+    Swift: "fa6-brands:swift",
+  };
 
 fetch(baseUrl, {
   method: "POST",
@@ -287,20 +291,16 @@ fetch(baseUrl, {
       newProjects["data"].push(obj);
     }
 
-    console.log("Fetching Pinned Projects...\n");
+    console.log("• Fetching Pinned Projects...\n");
     fs.writeFile(
       "./src/shared/opensource/projects.json",
       JSON.stringify(newProjects),
       function (err) {
         if (err) {
-          console.log(
-            "Error Ocurred!",
-            JSON.stringify(err)
+          console.log("• Error!!!", JSON.stringify(err)
           );
         }
       }
     );
   })
-  .catch((error) =>
-    console.log("Error Ocurred!", JSON.stringify(error))
-  );
+  .catch((error) => console.log(JSON.stringify(error)));
