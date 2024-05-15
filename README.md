@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">・S0ftPortfolio </h1> 
-<h3 align="center"> 💻 O modelo completo de portfólio para profissionais de T.I, 100% personalizável, onde permite mostrar seus trabalhos fornecendo todos os detalhes sobre você! </h3>
+<h3 align="center"> 💻 O modelo completo de portfólio para profissionais de T.I 100% personalizável, onde permite mostrar seus trabalhos fornecendo todos os detalhes sobre você! </h3>
 
 <p align="center">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="auto" width="40">
