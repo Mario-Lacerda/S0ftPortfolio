@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "💼 Gabriel Azevedo Portfolio",
+  title: "💼 Gabriel Azevedo Portfólio",
   description:
-  "</> Um profissional dedicado, movido pela paixão, sempre buscando oportunidades para contribuir no desenvolvimento de produtos abrangentes. Com expertise na criação de sistemas sociais, técnicos, sustentáveis e escaláveis, buscando constantemente gerar um impacto extraordinário.",
+  "</> Um profissional dedicado, movido pela paixão sempre buscando oportunidades para contribuir no desenvolvimento de produtos abrangentes. Com expertise na criação de sistemas sociais, técnicos, sustentáveis e escaláveis, buscando constantemente gerar um impacto extraordinário.",
   og: {
-    title: "💼 Gabriel Azevedo Portfolio",
+    title: "💼 Gabriel Azevedo Portfólio",
     type: "website",
     url: "www.gabrielaffonsoazevedo.com.br",
   },
